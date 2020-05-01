@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.divinetechs.ebooksapp">
+    package="com.kenova.bookify">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -20,7 +20,7 @@
         android:required="false" />
 
     <application
-        android:name=".Utility.MyApp"
+        android:name="com.kenova.bookify.Utility.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -65,7 +65,7 @@
         </activity>
 
         <activity
-            android:name=".Activity.SplashActivity"
+            android:name="com.kenova.bookify.Activity.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -75,85 +75,85 @@
         </activity>
 
         <activity
-            android:name=".Activity.Privacypolicy"
+            android:name="com.kenova.bookify.Activity.Privacypolicy"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Activity.AllPaymentActivity"
+            android:name="com.kenova.bookify.Activity.AllPaymentActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.DownloadedBooks"
+            android:name="com.kenova.bookify.Activity.DownloadedBooks"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.Paidbookallview"
+            android:name="com.kenova.bookify.Activity.Paidbookallview"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.FreeBookallview"
+            android:name="com.kenova.bookify.Activity.FreeBookallview"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name=".Activity.WelcomeActivity"
+            android:name="com.kenova.bookify.Activity.WelcomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.LoginActivity"
+            android:name="com.kenova.bookify.Activity.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.Registration"
+            android:name="com.kenova.bookify.Activity.Registration"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.MainActivity"
+            android:name="com.kenova.bookify.Activity.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.BookDetails"
+            android:name="com.kenova.bookify.Activity.BookDetails"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.PDFShow"
+            android:name="com.kenova.bookify.Activity.PDFShow"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="DuplicateActivity" />
         <activity
-            android:name=".Activity.PermissionActivity"
+            android:name="com.kenova.bookify.Activity.PermissionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.AuthorBookList"
+            android:name="com.kenova.bookify.Activity.AuthorBookList"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.CategoryBookList"
+            android:name="com.kenova.bookify.Activity.CategoryBookList"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.NewArrivalAll"
+            android:name="com.kenova.bookify.Activity.NewArrivalAll"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.CategoryViewAll"
+            android:name="com.kenova.bookify.Activity.CategoryViewAll"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.FeatureItemsViewAll"
+            android:name="com.kenova.bookify.Activity.FeatureItemsViewAll"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.AuthorAllActivity"
+            android:name="com.kenova.bookify.Activity.AuthorAllActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.MyDownloadBooks"
+            android:name="com.kenova.bookify.Activity.MyDownloadBooks"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.Profile"
+            android:name="com.kenova.bookify.Activity.Profile"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.AboutUs"
+            android:name="com.kenova.bookify.Activity.AboutUs"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -181,7 +181,7 @@
             android:name="io.card.payment.CardIOActivity"
             android:configChanges="keyboardHidden|orientation" />
         <activity android:name="io.card.payment.DataEntryActivity" />
-        <activity android:name=".Mpesa.Payment"
+        <activity android:name="com.kenova.bookify.Mpesa.Payment"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 

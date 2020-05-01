@@ -18,7 +18,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.divinetechs.ebooksapp"
+        applicationId "com.kenova.bookify"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -28,7 +28,7 @@ android {
         android {
             defaultConfig {
                 manifestPlaceholders = [
-                        onesignal_app_id               : '6e703206-bd5e-4aba-9dee-4ddcd6d96db6',
+                        onesignal_app_id               : 'd29a284c-0df2-43e3-99f2-1abbab01aa6d',
                         onesignal_google_project_number: 'REMOTE'
                 ]
             }
