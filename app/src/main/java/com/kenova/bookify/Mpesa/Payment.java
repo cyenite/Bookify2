@@ -53,12 +53,12 @@ public class Payment extends AppCompatActivity implements View.OnClickListener {
         daraja = Daraja.with("lpRnSFJyeMPnJ90yO0pOG8grwRuDm3il", "0OTXfudvr2xzLb1Y", new DarajaListener<AccessToken>() {
             @Override
             public void onResult(@NonNull AccessToken accessToken) {
-                Log.i(com.kenova.bookify.Mpesa.Payment.this.getClass().getSimpleName(), accessToken.getAccess_token());
+                //Log.i(com.kenova.bookify.Mpesa.Payment.this.getClass().getSimpleName(), accessToken.getAccess_token());
             }
 
             @Override
             public void onError(String error) {
-                Log.e(com.kenova.bookify.Mpesa.Payment.this.getClass().getSimpleName(), error);
+                //Log.e(com.kenova.bookify.Mpesa.Payment.this.getClass().getSimpleName(), error);
 
             }
         });
